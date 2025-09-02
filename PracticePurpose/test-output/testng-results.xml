@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-21T21:59:21 IST" name="Default suite" finished-at="2025-08-21T21:59:39 IST" duration-ms="18166">
+  <suite started-at="2025-09-02T10:23:15 IST" name="Default suite" finished-at="2025-09-02T10:23:56 IST" duration-ms="40683">
     <groups>
     </groups>
-    <test started-at="2025-08-21T21:59:21 IST" name="Default test" finished-at="2025-08-21T21:59:39 IST" duration-ms="18166">
+    <test started-at="2025-09-02T10:23:15 IST" name="Default test" finished-at="2025-09-02T10:23:56 IST" duration-ms="40683">
       <class name="Login.LoginTestCases">
-        <test-method signature="loginwithinvalidcredentials(java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-08-21T21:59:21 IST" name="loginwithinvalidcredentials" finished-at="2025-08-21T21:59:21 IST" duration-ms="0" status="FAIL">
+        <test-method signature="loginwithinvalidcredentials(java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-09-02T10:23:15 IST" name="loginwithinvalidcredentials" finished-at="2025-09-02T10:23:15 IST" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -47,11 +47,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithinvalidcredentials -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-08-21T21:59:21 IST" name="setup" finished-at="2025-08-21T21:59:25 IST" duration-ms="3974" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-09-02T10:23:15 IST" name="setup" finished-at="2025-09-02T10:23:36 IST" duration-ms="20884" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginwithvalidcredentials(java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-08-21T21:59:25 IST" name="loginwithvalidcredentials" data-provider="loginData" finished-at="2025-08-21T21:59:25 IST" duration-ms="309" status="PASS">
+        <test-method signature="loginwithvalidcredentials(java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-09-02T10:23:36 IST" name="loginwithvalidcredentials" data-provider="loginData" finished-at="2025-09-02T10:23:37 IST" duration-ms="795" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,15 +67,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithvalidcredentials -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-08-21T21:59:25 IST" name="teardown" finished-at="2025-08-21T21:59:26 IST" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-09-02T10:23:37 IST" name="teardown" finished-at="2025-09-02T10:23:37 IST" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-08-21T21:59:26 IST" name="setup" finished-at="2025-08-21T21:59:28 IST" duration-ms="2072" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-09-02T10:23:37 IST" name="setup" finished-at="2025-09-02T10:23:41 IST" duration-ms="3905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginwithvalidcredentials(java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-08-21T21:59:28 IST" name="loginwithvalidcredentials" data-provider="loginData" finished-at="2025-08-21T21:59:28 IST" duration-ms="365" status="PASS">
+        <test-method signature="loginwithvalidcredentials(java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-09-02T10:23:41 IST" name="loginwithvalidcredentials" data-provider="loginData" finished-at="2025-09-02T10:23:42 IST" duration-ms="469" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,15 +91,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithvalidcredentials -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-08-21T21:59:28 IST" name="teardown" finished-at="2025-08-21T21:59:28 IST" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-09-02T10:23:42 IST" name="teardown" finished-at="2025-09-02T10:23:42 IST" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-08-21T21:59:28 IST" name="setup" finished-at="2025-08-21T21:59:31 IST" duration-ms="2377" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-09-02T10:23:42 IST" name="setup" finished-at="2025-09-02T10:23:46 IST" duration-ms="4267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginwithvalidcredentials(java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-08-21T21:59:31 IST" name="loginwithvalidcredentials" data-provider="loginData" finished-at="2025-08-21T21:59:31 IST" duration-ms="347" status="PASS">
+        <test-method signature="loginwithvalidcredentials(java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-09-02T10:23:46 IST" name="loginwithvalidcredentials" data-provider="loginData" finished-at="2025-09-02T10:23:46 IST" duration-ms="383" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,15 +115,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithvalidcredentials -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-08-21T21:59:31 IST" name="teardown" finished-at="2025-08-21T21:59:31 IST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-09-02T10:23:46 IST" name="teardown" finished-at="2025-09-02T10:23:47 IST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-08-21T21:59:31 IST" name="setup" finished-at="2025-08-21T21:59:34 IST" duration-ms="2571" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-09-02T10:23:47 IST" name="setup" finished-at="2025-09-02T10:23:50 IST" duration-ms="3632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginwithvalidcredentials(java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-08-21T21:59:34 IST" name="loginwithvalidcredentials" data-provider="loginData" finished-at="2025-08-21T21:59:39 IST" duration-ms="5389" status="PASS">
+        <test-method signature="loginwithvalidcredentials(java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-09-02T10:23:50 IST" name="loginwithvalidcredentials" data-provider="loginData" finished-at="2025-09-02T10:23:56 IST" duration-ms="5402" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -139,7 +139,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithvalidcredentials -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-08-21T21:59:39 IST" name="teardown" finished-at="2025-08-21T21:59:39 IST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.LoginTestCases@ba2f4ec]" started-at="2025-09-02T10:23:56 IST" name="teardown" finished-at="2025-09-02T10:23:56 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
